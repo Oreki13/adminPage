@@ -119,7 +119,7 @@ class TableList extends Component {
                                       Top Up
                                     </Button>
                                     <Button
-                                      bsStyle="danger"
+                                      bsStyle="primary"
                                       bsSize="sm"
                                       onClick={() => this.modalOpen2(user.id)}
                                     >

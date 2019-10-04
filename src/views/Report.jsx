@@ -40,7 +40,6 @@ class Notifications extends Component {
                       <thead>
                         <tr>
                           <th>Name</th>
-                          <th>Email</th>
                           <th>Number Phone</th>
                           <th>Complain</th>
                         </tr>
@@ -49,7 +48,7 @@ class Notifications extends Component {
                         {this.state.report.map((data, index) => (
                           <tr>
                             <td key={index}>{data.User.name}</td>
-                            <td key={index}>{data.User.email}</td>
+
                             <td key={index}>{data.User.phone}</td>
                             <td style={{ wordWrap: "break-word" }} key={index}>
                               {data.complain}
