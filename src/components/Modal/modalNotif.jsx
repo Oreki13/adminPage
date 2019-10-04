@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { Modal, Button, FormControl, ControlLabel } from "react-bootstrap";
 
-class ModalPanic extends Component {
+class ModalNotif extends Component {
   state = {
     tmpData: ""
   };
@@ -10,7 +10,7 @@ class ModalPanic extends Component {
   };
 
   submit = () => {
-    this.props.post();
+    this.props.post2();
   };
   render() {
     console.log(this.state.tmpData);
@@ -19,13 +19,13 @@ class ModalPanic extends Component {
       <Fragment>
         <Modal show={this.props.status} onHide={this.props.close}>
           <Modal.Header closeButton>
-            <Modal.Title>TopUp User</Modal.Title>
+            <Modal.Title>Send Notif</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <ControlLabel>Nominal Pulsa</ControlLabel>
+            <ControlLabel>Masukan Pesan</ControlLabel>
             <FormControl
               type="text"
-              placeholder="Isi Pulsa Nya Boss"
+              placeholder="Masukan Pesan"
               onChange={this.handleForm}
             />
           </Modal.Body>
@@ -40,4 +40,4 @@ class ModalPanic extends Component {
   }
 }
 
-export default ModalPanic;
+export default ModalNotif;
