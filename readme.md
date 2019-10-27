@@ -10,7 +10,7 @@
 - [Requirements](#requirements)
 - [Usage](#usage-for-development)
 - [Screenshots](#screenshots)
-- [Review Web](#release-apk)
+- [Contributors](#contributors)
 
 ## Introduction
 
@@ -59,15 +59,6 @@ This Admin page for Provider clone my Axis
     </span>
     
   </p>
-
-## Review Web
-
-<a href="http://admin-axis-clone.herokuapp.com/login">
-  Look Here
-</a>
-
-- Email `admin1@mail.com`
-- Password `123456`
 
 ## Contributors
 
