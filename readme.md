@@ -1,4 +1,4 @@
-<h1 align='center'>Provider Clone Mobile (myAxis)</h1>
+<h1 align='center'>Admin Page (myAxis)</h1>
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Axis_logo_2015.svg/1200px-Axis_logo_2015.svg.png" width="250"/>
 </p>
@@ -10,7 +10,7 @@
 - [Requirements](#requirements)
 - [Usage](#usage-for-development)
 - [Screenshots](#screenshots)
-- [Release APK](#release-apk)
+- [Review Web](#release-apk)
 
 ## Introduction
 
