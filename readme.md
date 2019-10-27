@@ -26,8 +26,6 @@ This Admin page for Provider clone my Axis
 ## Requirements
 
 - [`react-js`](https://reactjs.org/)
-- [`Setting Up Provider Clone Backend`](https://github.com/fastaman993/provider-clone-backend)
-- [`Setting Up Provider Clone Admin Page (website)`](https://github.com/Oreki13/adminPage)
 - [`Setting Up Axios`](https://github.com/axios/axios)
 
 ## Usage for development
@@ -90,3 +88,8 @@ This Admin page for Provider clone my Axis
     </td>
   </tr>
 </table>
+
+## See Also
+
+- [`Provider Clone Backend`](https://github.com/fastaman993/provider-clone-backend)
+- [`Provider Clone Frontend (Mobile)`](https://github.com/areydras/provider-clone-mobile)
